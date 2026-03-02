@@ -22,7 +22,7 @@
 _(Add project-specific technical requirements that override or extend Master Rule V2)_
 
 **Examples:**
-- Deploy to Azure (not GitHub Pages)
+- Deploy to Custom Vercel Project (not standard Vercel Team)
 - Must support IE11 browser
 - Must use React framework (client's tech stack)
 - Section 15 SEM active (Google Ads running, GTM ID: GTM-XXXXXX)
@@ -46,7 +46,7 @@ _(Add client-specific constraints or preferences)_
 _(Add deployment-specific instructions)_
 
 **Examples:**
-- Deploy to Netlify with custom domain
+- Deploy to Vercel with custom domain and edge functions enabled
 - Environment variables needed: [list]
 - DNS configuration: [details]
 
