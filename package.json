@@ -1,13 +1,18 @@
 {
-    "name": "kimi-executor",
+    "name": "web-canopy-landing",
     "version": "1.0.0",
-    "description": "Execute implementation plans with Kimi API",
-    "main": "execute-with-kimi.js",
+    "description": "Premium Canopy Landing Page",
     "scripts": {
-        "execute": "node execute-with-kimi.js"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
     "dependencies": {
         "axios": "^1.6.0",
-        "dotenv": "^16.3.1"
+        "dotenv": "^16.3.1",
+        "next": "^16.1.6",
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4"
     }
 }
